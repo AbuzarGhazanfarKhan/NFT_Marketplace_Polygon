@@ -11,6 +11,7 @@ The marketplace owner will be able to set a listing fee. This fee will be taken 
 ## Transfers ownership of the item, as well as funds between parties */
   
 ```
+solidity
   function createMarketSale(
       uint256 tokenId
       ) public payable {
